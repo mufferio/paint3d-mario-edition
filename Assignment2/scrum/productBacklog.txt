@@ -1,0 +1,525 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+# For example: Draw Circle was split into two user stories US1.010 and US1.011
+# 
+# For example, the color chooser user story involves: 
+# 1 Color chooser UI (which could be a USER STORY)
+# 2 Implementation of selected color into the drawing stream.
+# 
+# The naming convention is USs.stp s is the sprint number this user story
+# appears in. s is the sprint that introduced the user story, 
+# t is a topic number, and p is the parts that the topic is
+# divided into (for larger user stories).
+#
+# Please change the status of the user story/bug to 
+#     NotStarted,InProgress, Incomplete,Complete
+# as appropriate.
+
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.001 : rosenbl6 : Complete
+NAME     : Draw Circle
+PRIORITY : 1
+ESTIMATE : 2 hours ACTUAL : 2 hours
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.001 : peterm11 : Completed (Merged to US1.002, US1.004)
+NAME     : Icons instead of text for drawing mode selection
+PRIORITY : 1 
+ESTIMATE : 1 day    ACTUAL : 2 hours
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.002 : leongc17 : Completed (Merged to BUG1.001)
+NAME     : Drawing selection mode not indicated
+PRIORITY : 1
+ESTIMATE : 2 hours    ACTUAL : 9 mins
+ISSUE    : Currently, you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.005 : redmanis : Completed (Merged to US1.004)
+NAME     : Squiggle is broken
+PRIORITY : 1
+ESTIMATE : 4 days    ACTUAL : 1 hour
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+                   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG1.006 : khanf206 : Completed (Merged to US1.002)
+NAME     : Circle drawing is broken
+PRIORITY : 1
+ESTIMATE : 4 days    ACTUAL : 30 minutes
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.002 : peterm11 : Completed (Merged to US1.004)
+NAME     : Draw Circle Feedback
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : <1 hour
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.003 : redmanis : Completed (merged to US1.004)
+NAME     : Draw Rectangle
+PRIORITY : 2
+ESTIMATE : 4 days    ACTUAL : <1 hour
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to
+                   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US1.004 : leongc17 : Completed
+NAME     : Draw Rectangle Feedback
+PRIORITY : 2
+ESTIMATE : 8 hours    ACTUAL : 3 hours
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.008 : peterm11 : Completed
+NAME     : Add icon to square, triangle and oval button
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : <1 hour
+AS A     : user
+I WANT   : Add icon to the new drawable shapes's button so that user can
+           have a direct view which button is for which shape
+SO THAT  : Easily identify functions of each button
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.001 : redmanis : Completed
+NAME     : Draw Square and feedback
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : <1 hour
+AS A     : user
+I WANT   : To be able to have the option too draw a square, the procedure
+           will be the same as drawing a rectangle and with feedback like 
+           rectangle.
+SO THAT  : I can draw a square with feedback.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.002 : khanf206 : Completed
+NAME     : Draw Triangle and feedback
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : 30 mins
+AS A     : user
+I WANT   : To be able to draw a triangle. The first click specifies the
+           "top right" corner of the triangle. As the user drags, the
+           the user can adjust the triangle's width and height. Included
+           feedback like the other draws
+SO THAT  : I can draw a triangle with feedback.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.003 : peterm11 : Completed (Merged to US2.007)
+NAME     : Draw Oval
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL : <1 hour
+AS A     : user
+I WANT   : Like drawing a triangle, draw an oval in the same procedure.
+SO THAT  : I can draw an oval.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.007 : peterm11 : Completed
+NAME     : Draw Oval feedback
+PRIORITY : 2
+ESTIMATE : 4 hours    ACTUAL : 30 mins
+AS A     : user
+I WANT   : To be able to see the oval in mid construction.
+SO THAT  : I can see the oval I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US2.005 : redmanis : Completed
+NAME     : Color selector
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example: 
+           		selects color red 
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  : I can change the colour while drawing.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.003 : leongc17 : Completed
+NAME     : Architecture behind choosing selection mode is poor
+PRIORITY : 3
+ESTIMATE : 1 day    ACTUAL :  3 hours
+ISSUE    : Code is not modular and is difficult to expand. Need a better
+           architecture behind selecting a drawing mode, and handling
+           the drawing events. Consider some design patterns here.
+           Refactor ShapeChooserPanel and PaintPanel to get rid of the
+           'if' blocks in the PaintPanel mouse event code.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.004 : peterm11 : Completed
+NAME     : Architecture behind Model is poor
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL : 1 hour
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.001 : khanf206 : Completed
+NAME     : Feature: add a splash/popup image to the app
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : an image to display when you start the paint app which simply
+introduces our group
+SO THAT  : we have a fun way to introduce us and who made this implementation
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US3.009 : peterm11 : Completed
+NAME     : Clear the canvas
+PRIORITY : 1
+ESTIMATE : 1 hours    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to have a blank canvas to draw on.
+SO THAT  : The user does not have to close and re-open the program again
+         : to clear the canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.005 : leongc17 : Completed
+NAME     : Make menu MVC
+PRIORITY : 1
+ESTIMATE : 2 hour    ACTUAL : 2 hours
+AS A     : developer
+I WANT   : To make the menu buttons part MVC. US3.009 can be implemented
+		   better by MVCing the menu bar
+SO THAT  : I can expand the menu
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.006 : redmanis : Completed
+NAME     : Fill style selector
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example: 
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.007 : redmanis : Completed
+NAME     : Line thickness selector
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline 
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined 
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.001 : khanf206 : Completed
+NAME     : Feature: add a splash/popup image to the app
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+AS A     : user
+I WANT   : an image to display when you start the paint app which simply
+introduces our group
+SO THAT  : we have a fun way to introduce us and who made this implementation
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.002 : peterm11 : Completed
+NAME     : Feature: Undo and Redo
+PRIORITY : 3
+ESTIMATE : 3 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to undo mistakes and redo when mistakenly undoing
+SO THAT  : Mistakes are not as tasking and the program is more user friendly
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.001 : leongc17 : Completed
+NAME     : Poor architecture of drawing shapes
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 1 hour
+ISSUE    : This is the extension of BUG3.004. Currently all shapes inherits
+		   the Shape abstract class. Thus, they can be stored in a single
+		   list, which resolves BUG3.004. However, as each shape has a
+		   different drawing method, peterm11's implementation involves
+		   using instanceof to check the type of each shape in the list
+		   and draw them respectively. This can be done by inheritation,
+		   where every Shape inherits abstract method "draw" so they can
+		   draw by themself.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.002 : leongc17 / peterm11 : Completed
+NAME     : Pre-select button
+PRIORITY : 3
+ESTIMATE : 5 mins    ACTUAL : 1 day
+ISSUE    : When entering app now no shape buttons are selected, thus the
+		   user cannot do anything until they press a button. By default,
+		   the "Circle" button should be pressed, the user should be able
+		   to draw circles upon entry.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.011 : leongc17 / peterm11 : Completed
+NAME     : Change color of shapes icons on buttons by the color picker
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : The color shape icons on buttons will change depending on the
+		   color I have selected in the color picker
+SO THAT  : I have more visual effects
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.010 (Merged US4.006 colloquially known as US4.005 redmanis edition) : redmanis : Completed
+NAME     : Fix Drawing of Oval and Triangle
+PRIORITY : 3
+ESTIMATE : 1 hour   ACTUAL : 30 minutes
+ISSUE    : Drawing of Oval and Triangle are not correct
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.012 : khanf206 : Completed
+NAME     : Add music to implementation
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 1 hour
+AS A     : user
+I WANT   : to have background music in the app
+SO THAT  : I have more audio effects and fun using the app
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.013 : leongc17 : Completed
+NAME     : Add a custom lego cursor
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 30 mins
+AS A     : user
+I WANT   : To have a custom lego cursor
+SO THAT  : I have more visual effects
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.014 : leongc17 : Completed
+NAME     : Select and move a shape
+PRIORITY : 1
+ESTIMATE : 3 hours    ACTUAL : 5 hours
+AS A     : user
+I WANT   : To be able to select a shape and move it's location. When the user
+		   clicks on a shape, it will be surrounded by a dotted square, then
+		   the user can move it's location.
+SO THAT  : To be able to select and move shapes
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.015 : redmanis : Completed
+NAME     : Draw and Feedback for PolyLine
+PRIORITY : 3
+ESTIMATE : 4 days    ACTUAL :
+AS A     : user
+I WANT   : To be able to draw PolyLine and have feedback for PolyLine
+SO THAT  : PolyLine can be draw
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.016 : peterm11 : Completed
+NAME     : Cut, Copy, and Paste
+PRIORITY : 2
+ESTIMATE : 1 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : To be able to cut, copy, and paste given shapes
+SO THAT  : Drawing is more accessible and mistakes are less tasking
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.017 : peterm11 : Completed
+NAME     : Canvas Expanding
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 45 minutes
+AS A     : user
+I WANT   : To be able have the canvas match the window's size
+SO THAT  : The application can be full screened naturally
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.011 : leongc17 : Completed
+NAME     : Optimize code of all shapes
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL : 3 hours
+ISSUE    : There exists a lot of redundant and buggy code in almost every
+		   shape class. These code won't cause the app to fail on code
+		   level, but it's EXTREMELY UGLY.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.012 : leongc17 : Completed
+NAME     : Apply strategy and factory design pattern in PaintController.
+PRIORITY : 1
+ESTIMATE : 2 hours   ACTUAL : 3 hours
+ISSUE    : It is possible to apply these two design patterns to optimize
+		   the code structure of the part where it handles shape creation
+		   and feedbacks.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.013 : leongc17 : Completed
+NAME     : Add selection support for polyline
+PRIORITY : 3
+ESTIMATE : 4 days    ACTUAL : 1 hour
+ISSUE    : Currently polylines are unselectable, and it's code is outdated
+		   by the latest version
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.018 : redmanis : Completed
+NAME     : Javadocs
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+AS A     : developer
+I WANT   : To be able to read what public functions do
+SO THAT  : I can Understand and expand on the code if needed
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.019 : khanf206 : completed
+NAME     : customize the app to be mario/nintendo themed
+PRIORITY : 3
+ESTIMATE : 4 hours    ACTUAL : 1.5 hours
+AS A     : user
+I WANT   : have the app look mario themed, with there to be a better splash image and button sounds
+SO THAT  : paint is more visually appealing
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.014 : peterm11 : Completed
+NAME     : Fix polyline never ending when pressing a new shape
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 30 minutes
+ISSUE    : Currently polylines do not end when press another shape button
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.015 : peterm11 : Completed
+NAME     : Canvas goes beyond the bounds of the window
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 30 minutes
+ISSUE    : Currently canvas extends past the window, making open photos
+         : weird
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.020 : peterm11 : Not Started
+NAME     : Edit selected shapes
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL :
+AS A     : user
+I WANT   : Selected shapes to be editable (change color, size, fill, stroke)
+SO THAT  : Mistakes are less troubling
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.021 : khanf206 : Not Started
+NAME     : Edit button GFX
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL :
+AS A     : user
+I WANT   : A cleaner box surrounding all buttons
+SO THAT  : The program looks more professional
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.016 : peterm11 : Completed
+NAME     : Program has unexpected results when undoing while selected
+         : or making a Polyline
+PRIORITY : 3
+ESTIMATE : 15 minutes    ACTUAL : 10 minutes
+ISSUE    : When drawing a polyline or having a shape selected; undoing
+         : causes errors
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.022 : redmanis : Started
+NAME     : Add all features to extraFeatures.txt
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 30 minutes
+AS A     : user
+I WANT   : All features in extraFeatures.txt
+SO THAT  : Our features are well documented
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.017 : peterm11 : Completed
+NAME     : Program throws exceptions when pressing new while drawing a Polyline
+PRIORITY : 3
+ESTIMATE : 15 minutes    ACTUAL : 5 minutes
+ISSUE    : When drawing a polyline and then pressing new throws many exceptions
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG4.018 : peterm11 : Completed
+NAME     : Program cannot undo cuts
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 5 hours
+ISSUE    : When cutting, then undoing, shape does not get drawn
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.024 : redmanis : Completed
+NAME     : New Methods Javadocs
+PRIORITY : 3
+ESTIMATE : 1 hours    ACTUAL : 1 hours
+AS A     : developer
+I WANT   : To be able to read what public functions do
+SO THAT  : I can Understand and expand on the code if needed
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.023 : peterm11 : Completed
+NAME     : Add a delete feature
+PRIORITY : 3
+ESTIMATE : 1 hour    ACTUAL : 3 minutes
+AS A     : user
+I WANT   : To be able to delete selected shapes
+SO THAT  : Mistakes are less troubling
+--------------------------------------------------------------------------
+
+
+# OMITTED USER STORIES/BUGS BELOW   ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY US4.003 : peterm11 : Failed (peterm11 gave up, I have a test)
+NAME     : Feature: Rotation
+PRIORITY : 2
+ESTIMATE : 2 hour    ACTUAL :
+AS A     : user
+I WANT   : To be able to rotate shapes
+SO THAT  : More can be drawn with the program
+--------------------------------------------------------------------------

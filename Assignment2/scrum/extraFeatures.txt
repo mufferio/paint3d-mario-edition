@@ -1,0 +1,127 @@
+--------------------------------------------------------------------------------
+FeatureName: Clear Canvas
+
+Description:
+	Allows the user to clear the canvas without closing and reopening the program.
+
+
+Reference:
+	US3.009
+--------------------------------------------------------------------------------
+FeatureName: Fill Style Selector
+
+Description:
+	Enables users to select the fill style (solid or outline) for shapes.
+	The selected style is applied to all subsequent shapes drawn.
+
+Reference:
+	US4.006, BUG4.010
+--------------------------------------------------------------------------------
+FeatureName: Line Thickness Selector
+
+Description:
+	Users can choose the line thickness, which is applied to
+	subsequent shapes for visual differentiation.
+
+Reference:
+	US4.007
+--------------------------------------------------------------------------------
+FeatureName: Splash/Popup Image
+
+Description:
+	Displays a splash image when starting the application to introduce the team.
+
+
+Reference:
+	US4.001
+--------------------------------------------------------------------------------
+FeatureName: Undo and Redo
+
+Description:
+	Provides the ability to undo mistakes and redo undone actions
+
+
+Reference:
+	US4.002, BUG4.016,BUG4.018
+--------------------------------------------------------------------------------
+FeatureName: Pre-Selected Button
+
+Description:
+	The "Circle" button is pre-selected when the app starts, allowing
+	users to draw immediately without manually selecting a shape.
+
+Reference:
+	BUG4.002
+--------------------------------------------------------------------------------
+FeatureName: Dynamic Color Icons on Buttons
+
+Description:
+	The color of shape icons on buttons changes dynamically
+	according to the color picker selection.
+
+Reference:
+	US4.011
+--------------------------------------------------------------------------------
+FeatureName: Background Music
+
+Description:
+	Adds background music to the app for improved user enjoyment.
+
+
+Reference:
+	US4.012
+--------------------------------------------------------------------------------
+FeatureName: Select and Move Shape
+
+Description:
+	Allows users to select shapes (highlighted with a dotted square)
+	and move them to new positions.
+
+
+Reference:
+	US4.014
+--------------------------------------------------------------------------------
+FeatureName: Polyline Drawing and Feedback
+
+Description:
+	Users can draw polylines with visual feedback during the drawing process.
+
+
+Reference:
+	US4.015, BUG4.013, BUG4.014
+--------------------------------------------------------------------------------
+FeatureName: Cut, Copy, and Paste
+
+Description:
+	Enables users to cut, copy, and paste shapes for more flexible editing.
+
+
+Reference:
+	US4.016
+--------------------------------------------------------------------------------
+FeatureName: Canvas Expanding
+
+Description:
+	The canvas automatically resizes to match the window size, allowing full-screen drawing.
+
+
+Reference:
+	US4.017, BUG4.015
+--------------------------------------------------------------------------------
+FeatureName: Mario/Nintendo Theme Customization
+
+Description:
+	Customizes the app's visuals and sounds to create a
+	Mario-themed experience.
+
+Reference:
+	US4.019
+--------------------------------------------------------------------------------
+FeatureName: Delete button
+
+Description:
+	After selecting a shape, can delete it by pressing Edit > Delete
+
+Reference:
+	US4.023
+--------------------------------------------------------------------------------

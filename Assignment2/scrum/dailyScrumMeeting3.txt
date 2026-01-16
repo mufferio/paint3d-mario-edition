@@ -1,0 +1,158 @@
+# Fill in, commit and push each day.
+Member name: Isaak Redman email: isaak.redman@mail.utoronto.ca utorid: redmanis
+
+Oct 15,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 17,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 18,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 19,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 20,2025
+	What I did yesterday:
+	What I will do today: Coordinate meeting.
+	Obstacles I face: finding time when everyone is free.
+
+Oct 21,2025
+	What I did yesterday: Coordinated a meeting time.
+	What I will do today: Complete sprint 1 in a meeting (Plan bug fix and user stories).
+	Obstacles I face: Understanding git and project requirements.
+
+Oct 22,2025
+	What I did yesterday: Meet with group to assign work.
+	What I will do today: I will finish my user story so my group mate can start working on his.
+	Obstacles I face: figuring out how to draw to the window.
+
+Oct 23,2025
+	What I did yesterday: Yesterday I completed the user story Draw rectangle.
+	What I will do today: I will fix the squiggle bug.
+	Obstacles I face: the squiggles not squiggling.
+
+Oct 24,2025
+	What I did yesterday: I fixed the squiggle bug.
+	What I will do today: study for the midterm that's tomorrow
+	Obstacles I face: being ready for Midterm
+
+Oct 25,2025
+	What I did yesterday: Study
+	What I will do today: I will complete the colour picker user story.
+	Obstacles I face: How to add the colour picker to the spot I want
+
+Oct 26,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 27,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 28,2025
+	What I did yesterday: Nothing
+	What I will do today: I will make the draw square button work
+	Obstacles I face: Installing InteliJ and setting up on a different computer with bad wifi.
+
+Oct 29,2025
+	What I did yesterday: I made the draw square feature
+	What I will do today: merged the square with master
+	Obstacles I face:
+
+Oct 30,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 31,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 1,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 2,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 3,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 4,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 5,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 6,2025
+	What I did yesterday:
+	What I will do today: I will make a way to save your drawing as a png to your computer
+	Obstacles I face: converting the canvas to a png image
+
+Nov 7,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 8,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 9,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 10,2025
+	What I did yesterday:
+	What I will do today: I will make the open file button work in the menu
+	Obstacles I face: opening an image and making it save properly to the canvas
+
+Nov 11,2025
+	What I did yesterday:
+	What I will do today: I will make a toggle switch to change whether a shape is filled or not and fix a bug with the triangle so it can go upsidedown
+	Obstacles I face: learning how to do a toggle switch
+
+Nov 12,2025
+	What I did yesterday: made a toggle button for a shape to be filled our just have the outline nad i fixed a bug with the triangle
+	What I will do today: I will make the fill slider for changing the line thickness and create the polyline
+	Obstacles I face: Figuring out a way to properly implement polyline
+
+Nov 13,2025
+	What I did yesterday: I completed line thickness and made the polyline
+	What I will do today: I will write javadocs for what we have so far
+	Obstacles I face: I face doing it fast enough so the my javadoc branch does not fall far behind
+
+Nov 14,2025
+	What I did yesterday: I wrote javadocs for all the current methods
+	What I will do today: I will write javadocs on new methods and complete the extra features list
+	Obstacles I face: boredom
+

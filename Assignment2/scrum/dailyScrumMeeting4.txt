@@ -1,0 +1,158 @@
+# Fill in, commit and push each day.
+Member name:Fahad Khan      email:fsadiq.khan@mail.utoronto.ca    utorid:khanf206
+
+Oct 15,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 17,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 18,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 19,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 20,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 21,2025
+	What I did yesterday: Communicated a meeting time with my group members
+	What I will do today: Allocate all the tasks to each group member
+	Obstacles I face: agreeing on how we will do the branching and committing and how we will communicate.
+
+Oct 22,2025
+	What I did yesterday: Discussed with my group about allocating tasks and how we will go about sprint 1
+	What I will do today: Finish the BUG1.006 fix
+	Obstacles I face: Still finding it a little hard to understand the code however it is slowly making sense
+
+Oct 23,2025
+	What I did yesterday:Finished implementing my BUG1.006 fix and communicated my implementation with group mates
+	What I will do today: discuss and finalize work for this sprint, ensure everything is ready for the final push to Master
+	Obstacles I face: figuring out any possible branch issues with merging and work, its still a little rusty but we are getting there
+
+Oct 24,2025
+	What I did yesterday: Pushed our sprint 1 to master
+	What I will do today: Start deciding how to organize ourselves for the next sprint and study for midterm
+	Obstacles I face: be ready for midterm
+
+Oct 25,2025
+	What I did yesterday: study and deciding
+	What I will do today: assigned the US2.002, will start studying the code to understand what to do
+	Obstacles I face: making sense of the code and how drawing works
+
+Oct 26,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 27,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 28,2025
+	What I did yesterday:
+	What I will do today: Refresh myself on my user story (i took a 2 day break)
+	Obstacles I face: organizing myself to code it
+
+Oct 29,2025
+	What I did yesterday: organization
+	What I will do today: start and finish US2.002
+	Obstacles I face: actually coding the user story and making it work
+
+Oct 30,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 31,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 1,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 2,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 3,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 4,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 5,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 6,2025
+	What I did yesterday: discussed ideas for what to add to our app as features
+	What I will do today: try to plan and see if i can add music to our app
+	Obstacles I face: new frontier, but it will be fun to learn
+
+Nov 7,2025
+	What I did yesterday: tried to add music, did not work as it needs an extra maven dependancy
+	What I will do today: browse new options for features to add
+	Obstacles I face: deciding what to add
+
+Nov 8,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 9,2025
+	What I did yesterday: browsed features to add
+	What I will do today: decided on adding a simple splash image to the app. introduces our group before our implementation launches
+	Obstacles I face: getting it to work seamlessly with our current implementation
+
+Nov 10,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 11,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2025
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2025
+	What I did yesterday: finished splash image and aided leongc17 in fixing code for mvc
+	What I will do today: work on the GUI and make the application mario themed
+	Obstacles I face: finding music we like and maybe difficulty in making the css file since i never have but its ab efficient design method
+
+Nov 14,2025
+	What I did yesterday: finished making application mario themed, found music
+	What I will do today: scrub up the css file and add any other changes
+	Obstacles I face:
+
